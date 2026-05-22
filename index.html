@@ -1,5 +1,3 @@
-// 為確保在 GitHub Pages 或單 HTML 靜態空間部署時 100% 不崩潰，
-// 我們將導入方式相容於全域 window 對象（若在標準 React 專案中，則會自動回退至標準導入）
 const React = window.React || require('react');
 const { useState, useEffect } = React;
 
